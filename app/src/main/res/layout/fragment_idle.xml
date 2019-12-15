@@ -1,0 +1,141 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gauge="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/idle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_column="0"
+        android:layout_row="1">
+
+
+        <de.nitri.gauge.Gauge
+            android:id="@+id/gaugeRPM"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            gauge:faceColor='@color/colorDialFace'
+            gauge:initialValue="0"
+            gauge:labelTextSize="45"
+            gauge:layout_constraintEnd_toStartOf="@+id/guideline1"
+            gauge:layout_constraintStart_toStartOf="@+id/guideline"
+            gauge:layout_constraintTop_toTopOf="parent"
+            gauge:upperText="@string/Gauge_start"
+            gauge:upperTextSize="70"
+            gauge:lowerText="@string/Gauge_start"
+            gauge:lowerTextSize="80"
+            gauge:maxValue="2000"
+            gauge:minValue="0"
+            gauge:scaleColor='@color/colorScale'
+            gauge:totalNicks="60"
+
+            gauge:valuePerNick="50" />
+
+        <de.nitri.gauge.Gauge
+            android:id="@+id/gaugeTPS"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            gauge:faceColor='@color/colorDialFace'
+            gauge:initialValue="1"
+            gauge:labelTextSize="45"
+            gauge:layout_constraintEnd_toStartOf="@+id/guideline1"
+            gauge:layout_constraintStart_toStartOf="@+id/guideline"
+            gauge:layout_constraintTop_toBottomOf="@+id/gaugeRPM"
+            gauge:upperText="@string/TPS_label"
+            gauge:upperTextSize="70"
+            gauge:lowerText="@string/Gauge_start"
+            gauge:lowerTextSize="80"
+            gauge:maxValue="3"
+            gauge:minValue="1"
+            gauge:scaleColor='@color/colorScale'
+            gauge:totalNicks="30"
+
+            gauge:valuePerNick="0.1" />
+
+        <de.nitri.gauge.Gauge
+            android:id="@+id/gaugeAFR1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="5dp"
+            gauge:faceColor='@color/colorDialFace'
+            gauge:initialValue="10"
+            gauge:labelTextSize="42"
+            gauge:layout_constraintBottom_toBottomOf="parent"
+            gauge:layout_constraintEnd_toStartOf="@+id/guideline2"
+            gauge:layout_constraintStart_toStartOf="parent"
+            gauge:upperText="@string/AFR1_gauge"
+            gauge:upperTextSize="45"
+            gauge:lowerText="@string/Gauge_start"
+            gauge:lowerTextSize="80"
+            gauge:maxValue="15"
+            gauge:minValue="11"
+            gauge:scaleColor='@color/colorScale'
+            gauge:totalNicks="60"
+            gauge:valuePerNick="0.1" />
+
+        <de.nitri.gauge.Gauge
+            android:id="@+id/gaugeAFR2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="5dp"
+            gauge:faceColor='@color/colorDialFace'
+            gauge:initialValue="10"
+            gauge:labelTextSize="42"
+            gauge:layout_constraintBottom_toBottomOf="parent"
+            gauge:layout_constraintEnd_toEndOf="parent"
+            gauge:layout_constraintStart_toStartOf="@+id/guideline3"
+            gauge:upperText="@string/AFR2_gauge"
+            gauge:upperTextSize="45"
+            gauge:lowerText="@string/Gauge_start"
+            gauge:lowerTextSize="80"
+            gauge:maxValue="15"
+            gauge:minValue="11"
+            gauge:scaleColor='@color/colorScale'
+            gauge:totalNicks="60"
+            gauge:valuePerNick="0.1" />
+
+        
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            gauge:layout_constraintGuide_percent="0.22" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            gauge:layout_constraintGuide_percent="0.78" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            gauge:layout_constraintGuide_percent="0.45" />
+
+        <android.support.constraint.Guideline
+            android:id="@+id/guideline3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            gauge:layout_constraintGuide_percent="0.55" />
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</RelativeLayout>
