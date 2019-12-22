@@ -57,17 +57,17 @@
     <string name="EBS_data">E</string>
     <string name="CTS_label">Coolant Temp</string>
     <string name="CTS_data">- - - -</string>
-    <string name="IAT_label">Intake Air Temp</string>
+    <string name="IAT_label">Air Temp</string>
     <string name="IAT_data">- - - -</string>
-    <string name="INJ1_label">INJ1 Duration ms</string>
+    <string name="INJ1_label">INJ1 Duration</string>
     <string name="INJ1_data">- - - -</string>
-    <string name="INJ2_label">INJ2 Duration ms</string>
+    <string name="INJ2_label">INJ2 Duration</string>
     <string name="INJ2_data">- - - -</string>
-    <string name="ADV_label">Advance Degrees</string>
+    <string name="ADV_label">Advance</string>
     <string name="ADV_data">- - - -</string>
-    <string name="AP_label">Air Pressure mbar</string>
+    <string name="AP_label">Air Pressure</string>
     <string name="AP_data">- - - -</string>
-    <string name="BV_label">Battery Voltage</string>
+    <string name="BV_label">Battery</string>
     <string name="BV_data">- - - -</string>
     <string name="AN3_label">Analog Input 3</string>
     <string name="AN3_data">- - - -</string>
@@ -158,12 +158,12 @@
 
     <string name="AutoSwitch0_message">None</string>
     <string name="AutoSwitch1_message">In Gear</string>
-    <string name="AutoSwitch2_message">After 10mins</string>
-    <string name="AutoSwitch3_message">Immediately</string>
+    <string name="AutoSwitch2_message">10mins</string>
+    <string name="AutoSwitch3_message">Immediate</string>
 
-    <string name="Mode1_message">Fast Logging</string>
+    <string name="Mode1_message">Fast Log</string>
     <string name="Mode2_message">AFR View</string>
-    <string name="Mode3_message">Monitor View</string>
+    <string name="Mode3_message">Monitor</string>
     <string name="Mode4_message">Test</string>
 
     <string-array name="Motorcycles">
