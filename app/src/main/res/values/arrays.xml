@@ -166,8 +166,9 @@
     </array>
     <array name="rpm_mot_E">    <!-- Ducati 996 -->
         <item>0</item>
-        <item>500</item>
-        <item>1900</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>2000</item>
         <item>2500</item>
         <item>3000</item>
         <item>3500</item>
@@ -176,34 +177,33 @@
         <item>5000</item>
         <item>5500</item>
         <item>6000</item>
-        <item>6500</item>
         <item>7000</item>
-        <item>7800</item>
-        <item>8600</item>
-        <item>9700</item>
+        <item>8000</item>
+        <item>9000</item>
+        <item>10000</item>
         <item>10500</item>
         <item>16000</item>
     </array>
     <array name="tps_mot_E">
         <item>0</item>
-        <item>1.8</item>
-        <item>3.6</item>
-        <item>8.0</item>
-        <item>10.3</item>
-        <item>14.3</item>
-        <item>19.3</item>
-        <item>25.0</item>
-        <item>30.5</item>
-        <item>36.3</item>
-        <item>41.5</item>
-        <item>46.5</item>
-        <item>52.4</item>
-        <item>56.9</item>
-        <item>62.3</item>
-        <item>68.5</item>
-        <item>81.3</item>
+        <item>1.1</item>
+        <item>3.3</item>
+        <item>4.6</item>
+        <item>6.7</item>
+        <item>9.8</item>
+        <item>12.8</item>
+        <item>18.0</item>
+        <item>22.1</item>
+        <item>26.0</item>
+        <item>29.5</item>
+        <item>33.3</item>
+        <item>42.9</item>
+        <item>58.0</item>
+        <item>68.3</item>
+        <item>81.2</item>
+        <item>87.6</item>
         <item>200</item>
-        <item>2.5</item> <!-- TPS Closed -->
+        <item>2.6</item> <!-- TPS Closed -->
     </array>
     <array name="rpm_mot_F">    <!-- Ducati 916 -->
         <item>0</item>
