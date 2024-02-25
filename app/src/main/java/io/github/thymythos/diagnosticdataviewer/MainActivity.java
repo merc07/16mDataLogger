@@ -565,9 +565,6 @@ public class MainActivity extends AppCompatActivity
         } else if (menuId == R.id.nav_monitor_view) {
             fragment = MonitorFragment.newInstance();
             title = R.string.monitor_title;
-        } else if (menuId == R.id.nav_graph_view) {
-            fragment = new GraphFragment();
-            title = R.string.graph_title;
         } else if (menuId == R.id.nav_table_view) {
             Bundle bundle = new Bundle();
             // TODO Select IDs depending on current motorcycle
