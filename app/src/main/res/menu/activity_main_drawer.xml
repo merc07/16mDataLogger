@@ -25,10 +25,6 @@
             android:icon="@drawable/ic_map"
             android:title="@string/table_menu" />
         <item
-            android:id="@+id/nav_graph_view"
-            android:icon="@drawable/ic_graph"
-            android:title="@string/graph_menu" />
-        <item
             android:id="@+id/nav_actuator_view"
             android:icon="@drawable/ic_check"
             android:title="@string/actuator_menu" />
