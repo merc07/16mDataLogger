@@ -1,8 +1,8 @@
 ## 16m ECU Diagnostic Data Viewer
 
-The official site is https://thymythos.github.io/DiagnosticDataViewer.
+Used in conjuction with my Bluetooth 16m datalogger to display ECU / AFR values as they are logged
+https://16mecudiagnosticdatalogger.blogspot.com/
 
-This app will become a live data viewer for [16m ECU Diagnostic Data Logger](http://16mecudiagnosticdatalogger.blogspot.de/).
 
 ### Android Studio 3.0
 
