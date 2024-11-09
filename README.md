@@ -1,6 +1,8 @@
 ## 16m ECU Diagnostic Data Viewer
 
-Used in conjuction with my Bluetooth 16m datalogger to display ECU / AFR values as they are logged
+Android app, used in conjuction with my Bluetooth 16m datalogger to display ECU / AFR values
+My logger and software information can be found here:
+
 https://16mecudiagnosticdatalogger.blogspot.com/
 
 
